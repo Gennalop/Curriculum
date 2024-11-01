@@ -129,6 +129,11 @@ h2 {
     justify-content:center;
 }
 
+.grid-container img{
+    width:100%;
+    display:block;
+}
+
 .card{
     border: 0.2pt solid #cedddd;
     border-radius: 10px; 
