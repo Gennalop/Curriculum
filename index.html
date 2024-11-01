@@ -1,112 +1,121 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
-    <title>Genesis Lopez - Curriculum Vitae</title>
-    <meta name="description" content="...">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="cv, educacion, proyectos, contacto">
+    <meta name="description" content="Curriculum Vitae">
     <meta name="author" content="Genesis Lopez">
+    <title>Curriculum Vitae - Genesis Lopez</title>
     <link rel="stylesheet" href="stylesheets/style.css">
 </head>
 
 <body>
     <header>
-        <h1>Genesis Lopez</h1>
-        <p>Tu Cargo | Tu Email | Tu Teléfono</p>
+        <a class="logo" href="#">CV</a>
+        <nav>
+            <a href="#sobremi">Sobre mi</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#educacion">Educación</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#resumen">Resumen</a></li>
-            <li><a href="#experiencia">Experiencia</a></li>
-            <li><a href="#educacion">Educación</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-            <li><a href="#proyectos">Proyectos</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section id="resumen">
-            <h2 class="subtitle">Resumen</h2>
-            <p>Breve descripción de tus habilidades y experiencia.</p>
-            <img id="photo" src="https://placehold.co/600x400" alt="photo">
-        </section>
-        <section id="experiencia">
-            <h2 class="subtitle">Experiencia</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Empresa</th>
-                        <th>Puesto</th>
-                        <th>Años de experiencia</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Acme Corporation</td>
-                        <td>Desarrollador web</td>
-                        <td>3</td>
-                    </tr>
-                </tbody>
-            </table>
 
+    <main>
+        <section id="inicio">
+            <div class="inicio-img">
+                <img src="photo.jpg" alt="">
+            </div>
+            <div class="inicio-content">
+                <h1>Hola, soy Génesis López</h1>
+                <h3>Estudiante de Ingeniería de Computación</h3>
+                <a href="https://www.linkedin.com/in/tunombre">LinkedIn</a></li>
+        <a href="https://github.com/tunombre">GitHub</a>
+                </div>
+                <a href="#contacto" class="btn">Contactar</a>
+            </div>
         </section>
-        <section id="educacion">
-            <h2 class="subtitle">Educación</h2>
+        <section id="sobremi">
+            <h2>Sobre mi</h2>
+            <p>Soy estudiante de la Escuela Superior Politécnica del Litoral (ESPOL), apasionada por el aprendizaje continuo en tecnologías emergentes y la mejora constante de mis habilidades. Poseo conocimientos en programación orientada a objetos, gestión de redes y bases de datos. <br> Estoy motivada por contribuir en proyectos innovadores y desarrollarme en un entorno donde pueda adquirir experiencia en inteligencia artificial y ciberseguridad.</p>
         </section>
-        <section id="habilidades">
-            <h2 class="subtitle">Habilidades</h2>
+
+        <section class="contenedor">
+            <section id="educacion">
+                <h2 class="subtitle">Educación</h2>
+                <h3>Escuela Superior Politécnica del Litoral</h3>
+                <p>Estudiante de la carrera de Ingenieria en Ciencias Computacionales</p>
+                <h4>Ubicación</h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31838.90483867082!2d-79.90743323358743!3d-2.2414466611289052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d6f95f420f605%3A0x6164a216bd4a0a30!2sGuasmo%2C%20090104%20Guayaquil!5e0!3m2!1ses!2sec!4v1717364135721!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <h4>Presentación</h4>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/mom6gyI6YHM" title="YouTube video" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+            </section>
+
+            <section id="habilidades">
+                <h2>Habilidades</h2>
+                <h3>Lenguajes de programación</h3>
+                <ul>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>C</li>
+                </ul>
+                <h3>Desarrollo Web</h3>
+                <ul>
+                    <li>HTML/CSS</li>
+                    <li>Javascript</li>
+                </ul>
+                <h3>Bases de Datos</h3>
+                <ul>
+                    <li>MySQL</li>
+                </ul>
+                
+            </section>
         </section>
+
         <section id="proyectos">
-            <h2 class="subtitle">Proyectos</h2>
-            <ol>
-                <li>Proyect 1</li>
-                <li>Proyect 2</li>
-                <li>Proyect 3</li>
-            </ol>
+            <h2>Proyectos</h2>
+            <div class="grid-container">
+                <div class="card">
+                    <h3>Batalla Naval</h3>
+                    <img src="p1.PNG" alt="">
+                    <p></p>
+                    <a href="#" class="btn">Ver</a>
+                </div>
+                <div class="card">
+                    <h3>Juego Tic Tac Toe</h3>
+                    <img src="p2.PNG" alt="">
+                    <p></p>
+                    <a href="#" class="btn">Ver</a>
+                </div>
+                <div class="card">
+                    <h3>CRUD Petbacker</h3>
+                    <img src="p3.PNG" alt="">
+                    <p></p>
+                    <a href="#" class="btn">Ver</a>
+                </div>
+            </div>
         </section>
-        <section id="contactenos">
-            <h2 class="subtitle">Contactenos</h2>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
             <form>
-                <label for="nombre">Nombre Completo:</label>
+                <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required>
                 <label for="email">Correo Electrónico:</label>
                 <input type="email" id="email" name="email" required>
-                <label for="experiencia">Experiencia Laboral:</label>
-                <textarea id="experiencia" name="experiencia" rows="5" required></textarea>
-                <label for="educacion">Educación:</label>
-                <textarea id="educacion" name="educacion" rows="5" required></textarea>
-                <label>Habilidades Técnicas:</label>
-                <!--
-                <input type="checkbox" name="habilidades" value="HTML"> HTML
-                <input type="checkbox" name="habilidades" value="CSS"> CSS
-                <input type="checkbox" name="habilidades" value="JavaScript"> JavaScript
-                -->
-                <label>
-                    <input type="checkbox" name="habilidades" value="HTML">
-                HTML </label>
-                <label>
-                    <input type="checkbox" name="habilidades" value="CSS">
-                CSS </label>
-                <label>
-                    <input type="checkbox" name="habilidades" value="JavaScript">
-                JavaScript </label>
-
-                <label for="intereses">Intereses:</label>
-                <select id="intereses" name="intereses">
-                    <option value="desarrollo">Desarrollo Web</option>
-                    <option value="diseno">Diseño Gráfico</option>
-                    <option value="marketing">Marketing Digital</option>
-                </select>
-                <button type="submit">Enviar</button>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                <a href="#" class="btn">Enviar</a>
             </form>
+            
         </section>
     </main>
 
     <footer>
-        <p>© Tu Nombre - 2023</p>
-        <ul>
-            <li><a href="https://www.linkedin.com/in/tunombre">LinkedIn</a></li>
-            <li><a href="https://github.com/tunombre">GitHub</a></li>
-        </ul>
+        <p>© Génesis López - 2024</p><br>
     </footer>
+
 </body>
 
 </html>
