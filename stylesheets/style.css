@@ -1,5 +1,4 @@
 * {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,13 +6,28 @@
     border: none;
 }
 
+body {
+    font-family: "Khula", sans-serif;
+    color: #fffffe;
+}
+
+.btn {
+    padding: 1rem 2.8rem;
+    border-radius: 4rem;
+    color: #ff8906;
+    border: 2px solid #ff8906;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
 header {
+    font-family: "Martel", serif;
     width: 100%;
-    background-color: black;
+    background-color: rgb(99, 8, 8);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 5%;
+    padding: 0.5rem 5%;
 }
 
 .logo {
@@ -55,11 +69,13 @@ main {
 }
 
 .inicio-content h1 {
+    font-family: "Martel", serif;
     font-size: 3rem;
     font-weight: 700;
 }
 
 .inicio-content h3 {
+    font-family: "Rufina", serif;
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 1rem;
@@ -77,13 +93,8 @@ main {
     transition: 0.2s linear;
 }
 
-.btn {
-    padding: 1rem 2.8rem;
-    border-radius: 4rem;
-    color: #ff8906;
-    border: 2px solid #ff8906;
-    transition: 0.3s ease;
-    cursor: pointer;
+.social-media {
+    margin-bottom: 10%;
 }
 
 #inicio .btn {
@@ -97,7 +108,7 @@ main {
 }
 
 #sobremi {
-    background-color: black;
+    background-color: rgba(77, 18, 18, 0.349);
     text-align:center;
 }
 
@@ -117,6 +128,7 @@ section {
 }
 
 h2 {
+    font-family: "Martel", serif;
     text-align: center;
     font-weight: bold;
     margin-bottom: 1.5rem;
@@ -124,14 +136,13 @@ h2 {
 
 .grid-container {
     display:grid;
-    grid-template-columns:repeat(auto-fit,min-max(300px,1fr));
+    grid-template-columns:repeat(3,1fr);
     gap:20px;
-    justify-content:center;
+    
 }
 
 .grid-container img{
-    width:100%;
-    display:block;
+    width: 180%;  
 }
 
 .card{
@@ -142,25 +153,23 @@ h2 {
     transition:all 400ms ease;
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
     gap:10px;
 }
 
 .card:hover{
-    transform:translate()
+    transform:translateY(-3%)
 }
 
 form {
   display: flex;
   flex-direction: column;
-  padding: 0.5rem 3%;
   gap:10px;  
 }
 
 footer {
    background-color: black;
-   color: #fffffe;
    display: flex;
    align-items: center;
    justify-content:center;
